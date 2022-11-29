@@ -37,7 +37,9 @@ configurations {
 }
 
 dependencies {
-
+    compile (
+            "mysql:mysql-connector-java:5.1.38"
+    )
     compile( libraries.jpa )
     // Could be made optional?
     compile( libraries.byteBuddy )

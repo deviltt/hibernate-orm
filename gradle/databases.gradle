@@ -73,8 +73,8 @@ ext {
                 mysql : [
                         'db.dialect' : 'org.hibernate.dialect.MySQL57Dialect',
                         'jdbc.driver': 'com.mysql.jdbc.Driver',
-                        'jdbc.user'  : 'hibernateormtest',
-                        'jdbc.pass'  : 'hibernateormtest',
+                        'jdbc.user'  : 'root',
+                        'jdbc.pass'  : '123456',
                         'jdbc.url'   : 'jdbc:mysql://' + dbHost + '/hibernate_orm_test',
                         'connection.init_sql' : ''
                 ],
